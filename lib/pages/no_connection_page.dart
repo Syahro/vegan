@@ -5,6 +5,7 @@ class NoConnectionPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: backgroundColor,
       body: SafeArea(
           child: Padding(
         padding: EdgeInsets.symmetric(horizontal: defaultMargin + 4),
